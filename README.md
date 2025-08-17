@@ -1,5 +1,5 @@
 # ai-tooling-project
-An open-source repository containing a variety of QOL AI tools that interface with well-known AI APIs.
+An open-source repository containing a variety of AI tools that interface with well-known open-source LLM APIs.
 Provides a full pipeline to transcribe audio/video media and generate summaries and segment into timestamped chapters for ease of access. 
 
 # Motivation 
