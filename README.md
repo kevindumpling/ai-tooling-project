@@ -7,7 +7,7 @@ The contents of this project were developed to enable business-end users in any 
 
 # Contents 
 - audiotranscriber.py: transcribes audio/video using OpenAI's Whisper API. Helpful for generating things such as meeting notes, summarizing videos for processing with LLMs, or preparing media for word processing locally without infosec concerns. REQUIREMENTS: openAI whisper + ffmpeg (for video decoding, must be in system PATH)
-- processor.py: summarizes and auto-chapters those transcripts via open-source LLMs (using Ollama in this case). Customizable Ollama model and prompts. REQUIREMENTS: Ollama installed, requests >= 2.30.0. 
+- processor.py (contained in the folder 'processor'): summarizes and auto-chapters those transcripts via open-source LLMs (using Ollama in this case). Customizable Ollama model and prompts. REQUIREMENTS: Ollama installed, requests >= 2.30.0. 
 
 No cloud APIs or uploads required — everything runs locally. Good for sensitive work. 
 
